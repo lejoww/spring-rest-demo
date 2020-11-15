@@ -20,7 +20,7 @@ public class LeaseController {
 
     @PostMapping("/api/pagos")
     public List<Lease> createLease(@Valid @RequestBody Lease lease) {
-        return leaseRepository.save(lease);
+        return null;
     }
 
 
